@@ -1,0 +1,3283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/With KS/Major</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C4,D4,E4,F4,G4,A4,B4,C5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G3,A3,B3,C4,D4,E4,F#4,G4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>D5,E5,F#5,G5,A5,B5,C#6,D6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>A5,B5,C#6,D6,E6,F#6,G#6,A6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>E3,F#3,G#3,A3,B3,C#4,D#4,E4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>B2,C#3,D#3,E3,F#3,G#3,A#3,B3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F#4,G#4,A#4,B4,C#5,D#5,E#5,F#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C#4,D#4,E#4,F#4,G#4,A#4,B#4,C#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>F2,G2,A2,Bb2,C3,D3,E3,F3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Bb4,C5,D5,Eb5,F5,G5,A5,Bb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Eb3,F3,G3,Ab3,Bb3,C4,D4,Eb4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,C4,Db4,Eb4,F4,G4,Ab4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Db major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Db3,Eb3,F3,Gb3,Ab3,Bb3,C4,Db4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Gb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>Gb5,Ab5,Bb5,Cb6,Db6,Eb6,F6,Gb6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Cb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Cb4,Db4,Eb4,Fb4,Gb4,Ab4,Bb4,Cb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/Without KS/Major</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>C5,D5,E5,F5,G5,A5,B5,C6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G3,A3,B3,C4,D4,E4,F#4,G4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D3,E3,F#3,G3,A3,B3,C#4,D4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>A3,B3,C#4,D4,E4,F#4,G#4,A4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>E4,F#4,G#4,A4,B4,C#5,D#5,E5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>B2,C#3,D#3,E3,F#3,G#3,A#3,B3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F#4,G#4,A#4,B4,C#5,D#5,E#5,F#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>C#3,D#3,E#3,F#3,G#3,A#3,B#3,C#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F4,G4,A4,Bb4,C5,D5,E5,F5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Bb4,C5,D5,Eb5,F5,G5,A5,Bb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>Eb5,F5,G5,Ab5,Bb5,C6,D6,Eb6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,C4,Db4,Eb4,F4,G4,Ab4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Db major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>Db2,Eb2,F2,Gb2,Ab2,Bb2,C3,Db3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Gb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Gb3,Ab3,Bb3,Cb4,Db4,Eb4,F4,Gb4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Cb major</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>ma</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>Cb2,Db2,Eb2,Fb2,Gb2,Ab2,Bb2,Cb3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/With KS/Natural Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>A2,B2,C3,D3,E3,F3,G3,A3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>E3,F#3,G3,A3,B3,C4,D4,E4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>B4,C#5,D5,E5,F#5,G5,A5,B5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F#4,G#4,A4,B4,C#5,D5,E5,F#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C#4,D#4,E4,F#4,G#4,A4,B4,C#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G#4,A#4,B4,C#5,D#5,E5,F#5,G#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>D#5,E#5,F#5,G#5,A#5,B5,C#6,D#6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>A#2,B#2,C#3,D#3,E#3,F#3,G#3,A#3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D3,E3,F3,G3,A3,Bb3,C4,D4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G3,A3,Bb3,C4,D4,Eb4,F4,G4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>C2,D2,Eb2,F2,G2,Ab2,Bb2,C3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>F2,G2,Ab2,Bb2,C3,Db3,Eb3,F3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Bb4,C5,Db5,Eb5,F5,Gb5,Ab5,Bb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>Eb2,F2,Gb2,Ab2,Bb2,Cb3,Db3,Eb3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Ab4,Bb4,Cb5,Db5,Eb5,Fb5,Gb5,Ab5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/Without KS/Natural Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>A4,B4,C5,D5,E5,F5,G5,A5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>E4,F#4,G4,A4,B4,C5,D5,E5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>B4,C#5,D5,E5,F#5,G5,A5,B5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>F#5,G#5,A5,B5,C#6,D6,E6,F#6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>C#3,D#3,E3,F#3,G#3,A3,B3,C#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G#3,A#3,B3,C#4,D#4,E4,F#4,G#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D#3,E#3,F#3,G#3,A#3,B3,C#4,D#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>A#3,B#3,C#4,D#4,E#4,F#4,G#4,A#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D3,E3,F3,G3,A3,Bb3,C4,D4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G4,A4,Bb4,C5,D5,Eb5,F5,G5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>C5,D5,Eb5,F5,G5,Ab5,Bb5,C6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>F3,G3,Ab3,Bb3,C4,Db4,Eb4,F4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Bb3,C4,Db4,Eb4,F4,Gb4,Ab4,Bb4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Eb4,F4,Gb4,Ab4,Bb4,Cb5,Db5,Eb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab natural minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>nm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,Cb4,Db4,Eb4,Fb4,Gb4,Ab4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/With KS/Harmonic Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>A5,B5,C6,D6,E6,F6,G#6,A6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>E3,F#3,G3,A3,B3,C4,D#4,E4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>B4,C#5,D5,E5,F#5,G5,A#5,B5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>F#3,G#3,A3,B3,C#4,D4,E#4,F#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C#4,D#4,E4,F#4,G#4,A4,B#4,C#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>G#5,A#5,B5,C#6,D#6,E6,Fx6,G#6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D#3,E#3,F#3,G#3,A#3,B3,Cx4,D#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>A#4,B#4,C#5,D#5,E#5,F#5,Gx5,A#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>D2,E2,F2,G2,A2,Bb2,C#3,D3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G4,A4,Bb4,C5,D5,Eb5,F#5,G5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>C3,D3,Eb3,F3,G3,Ab3,B3,C4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>F2,G2,Ab2,Bb2,C3,Db3,E3,F3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Bb4,C5,Db5,Eb5,F5,Gb5,A5,Bb5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>Eb5,F5,Gb5,Ab5,Bb5,Cb6,D6,Eb6</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Ab4,Bb4,Cb5,Db5,Eb5,Fb5,G5,Ab5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/Without KS/Harmonic Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>A2,B2,C3,D3,E3,F3,G#3,A3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>E4,F#4,G4,A4,B4,C5,D#5,E5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>B2,C#3,D3,E3,F#3,G3,A#3,B3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F#4,G#4,A4,B4,C#5,D5,E#5,F#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>C#3,D#3,E3,F#3,G#3,A3,B#3,C#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G#3,A#3,B3,C#4,D#4,E4,Fx4,G#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>D#4,E#4,F#4,G#4,A#4,B4,Cx5,D#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>A#3,B#3,C#4,D#4,E#4,F#4,Gx4,A#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>D2,E2,F2,G2,A2,Bb2,C#3,D3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G4,A4,Bb4,C5,D5,Eb5,F#5,G5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C4,D4,Eb4,F4,G4,Ab4,B4,C5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>F3,G3,Ab3,Bb3,C4,Db4,E4,F4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Bb3,C4,Db4,Eb4,F4,Gb4,A4,Bb4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>Eb2,F2,Gb2,Ab2,Bb2,Cb3,D3,Eb3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab harmonic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>hm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,Cb4,Db4,Eb4,Fb4,G4,Ab4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/With KS/Melodic Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>A4,B4,C5,D5,E5,F#5,G#5,A5,G5,F5,E5,D5,C5,B4,A4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>E3,F#3,G3,A3,B3,C#4,D#4,E4,D4,C4,B3,A3,G3,F#3,E3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>B3,C#4,D4,E4,F#4,G#4,A#4,B4,A4,G4,F#4,E4,D4,C#4,B3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>F#4,G#4,A4,B4,C#5,D#5,E#5,F#5,E5,D5,C#5,B4,A4,G#4,F#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>C#4,D#4,E4,F#4,G#4,A#4,B#4,C#5,B4,A4,G#4,F#4,E4,D#4,C#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G#4,A#4,B4,C#5,D#5,E#5,Fx5,G#5,F#5,E5,D#5,C#5,B4,A#4,G#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D#3,E#3,F#3,G#3,A#3,B#3,Cx4,D#4,C#4,B3,A#3,G#3,F#3,E#3,D#3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>A#4,B#4,C#5,D#5,E#5,Fx5,Gx5,A#5,G#5,F#5,E#5,D#5,C#5,B#4,A#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>D3,E3,F3,G3,A3,B3,C#4,D4,C4,Bb3,A3,G3,F3,E3,D3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>G2,A2,Bb2,C3,D3,E3,F#3,G3,F3,Eb3,D3,C3,Bb2,A2,G2</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>C2,D2,Eb2,F2,G2,A2,B2,C3,Bb2,Ab2,G2,F2,Eb2,D2,C2</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>F5,G5,Ab5,Bb5,C6,D6,E6,F6,Eb6,Db6,C6,Bb5,Ab5,G5,F5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>Bb4,C5,Db5,Eb5,F5,G5,A5,Bb5,Ab5,Gb5,F5,Eb5,Db5,C5,Bb4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>Eb2,F2,Gb2,Ab2,Bb2,C3,D3,Eb3,Db3,Cb3,Bb2,Ab2,Gb2,F2,Eb2</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>y</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,Cb4,Db4,Eb4,F4,G4,Ab4,Gb4,Fb4,Eb4,Db4,Cb4,Bb3,Ab3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category>
+      <text>$course$/Scales/Without KS/Melodic Minor</text>
+    </category>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>2</orignoteregister>
+    <answer fraction="100">
+      <text>A2,B2,C3,D3,E3,F#3,G#3,A3,G3,F3,E3,D3,C3,B2,A2</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>E melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>E5,F#5,G5,A5,B5,C#6,D#6,E6,D6,C6,B5,A5,G5,F#5,E5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>B melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>B4,C#5,D5,E5,F#5,G#5,A#5,B5,A5,G5,F#5,E5,D5,C#5,B4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>F#3,G#3,A3,B3,C#4,D#4,E#4,F#4,E4,D4,C#4,B3,A3,G#3,F#3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>C#3,D#3,E3,F#3,G#3,A#3,B#3,C#4,B3,A3,G#3,F#3,E3,D#3,C#3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>G#4,A#4,B4,C#5,D#5,E#5,Fx5,G#5,F#5,E5,D#5,C#5,B4,A#4,G#4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>D#5,E#5,F#5,G#5,A#5,B#5,Cx6,D#6,C#6,B5,A#5,G#5,F#5,E#5,D#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>A# melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>#</orignoteaccidental>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>A#5,B#5,C#6,D#6,E#6,Fx6,Gx6,A#6,G#6,F#6,E#6,D#6,C#6,B#5,A#5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>D melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>D</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>4</orignoteregister>
+    <answer fraction="100">
+      <text>D4,E4,F4,G4,A4,B4,C#5,D5,C5,Bb4,A4,G4,F4,E4,D4</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>G melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>G</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>G3,A3,Bb3,C4,D4,E4,F#4,G4,F4,Eb4,D4,C4,Bb3,A3,G3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>C melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>C</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>C5,D5,Eb5,F5,G5,A5,B5,C6,Bb5,Ab5,G5,F5,Eb5,D5,C5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>F melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>F</orignoteletter>
+    <orignoteaccidental/>
+    <orignoteregister>5</orignoteregister>
+    <answer fraction="100">
+      <text>F5,G5,Ab5,Bb5,C6,D6,E6,F6,Eb6,Db6,C6,Bb5,Ab5,G5,F5</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Bb melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>B</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Bb3,C4,Db4,Eb4,F4,G4,A4,Bb4,Ab4,Gb4,F4,Eb4,Db4,C4,Bb3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Eb melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>E</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Eb3,F3,Gb3,Ab3,Bb3,C4,D4,Eb4,Db4,Cb4,Bb3,Ab3,Gb3,F3,Eb3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+  <question type="scale">
+    <name>
+      <text>Ab melodic minor</text>
+    </name>
+    <questiontext format="html">
+      <text/>
+    </questiontext>
+    <image/>
+    <generalfeedback>
+      <text/>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <includeks>n</includeks>
+    <modescale>mm</modescale>
+    <orignoteletter>A</orignoteletter>
+    <orignoteaccidental>b</orignoteaccidental>
+    <orignoteregister>3</orignoteregister>
+    <answer fraction="100">
+      <text>Ab3,Bb3,Cb4,Db4,Eb4,F4,G4,Ab4,Gb4,Fb4,Eb4,Db4,Cb4,Bb3,Ab3</text>
+      <feedback>
+        <text/>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
