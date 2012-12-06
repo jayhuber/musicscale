@@ -90,7 +90,6 @@ class qtype_musicscale extends question_type {
     }
 
     function save_question_answers($question) {
-echo "save_question_options<br />";	
 		global $DB;
         $result = new stdClass;
         $context = $question->context;
