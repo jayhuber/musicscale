@@ -21,7 +21,7 @@
  * @subpackage  musicscale
  * @copyright   &copy; 2009 Eric Brisson for Moodle 1.x and Flash Component
  * @author      ebrisson at winona.edu
- * @copyright   &copy; 2012 Jay Huber for Moodle 2.x
+ * @copyright   &copy; 2013 Jay Huber for Moodle 2.x
  * @author      jhuber at colum.edu
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 */
@@ -95,17 +95,39 @@ class qtype_musicscale_renderer extends qtype_renderer {
 	    } 
 	}
 
-    public function correct_response(question_attempt $qa) {
-        $question = $qa->get_question();
-	    $response = $qa->get_last_qt_var('answer', '');
+  public function correct_response(question_attempt $qa) {
+    $question = $qa->get_question();
+    $response = $qa->get_last_qt_var('answer', '');
+    $answer = strtolower($response);
 
-        if ($question->rightanswer != $response) {
-            return get_string('feedbackwronganswer', 'qtype_musicscale').$question->rightanswer;
-        } else {
-            return get_string('feedbackcorrectanswer', 'qtype_musicscale');
-		}
+    if (substr($answer, -1, 1) == ',') {
+      $answer = substr($answer, 0, -1);
     }
 
+    $output = "";
+    $correct = 0;
+    $out_answer = "";
+    foreach ($question->answers as $a) {
+      if ($answer == strtolower($a->answer)) {
+        $correct = $a->fraction;
+      }
+
+      if ($out_answer != "") {
+        $out_answer .= "|";
+      }
+      $out_answer .= strtolower($a->answer);
+    }
+
+    if ($correct > 0) {
+      $output .= get_string('feedbackcorrectanswer', 'qtype_musicscale');
+    } else {
+      $output .= get_string('feedbackwronganswer', 'qtype_musicscale')."<br />";
+      $output .= html_writer::tag('div', '', array('id' => 'answers'));
+      $output .= str_replace("|","<br />or<br />",$out_answer);
+    }
+
+    return $output;
+  }
 
 
 }

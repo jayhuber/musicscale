@@ -21,14 +21,14 @@
  * @subpackage  musicscale
  * @copyright   &copy; 2009 Eric Brisson for Moodle 1.x and Flash Component
  * @author      ebrisson at winona.edu
- * @copyright   &copy; 2012 Jay Huber for Moodle 2.x
+ * @copyright   &copy; 2013 Jay Huber for Moodle 2.x
  * @author      jhuber at colum.edu
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012120600;
+$plugin->version   = 2013071600;
 $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->component = 'qtype_musicscale';

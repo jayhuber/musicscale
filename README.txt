@@ -1,5 +1,23 @@
-MUSICAL SCALE QUESTION TYPE
+Readme file for the MUSICAL SCALE question type
+===============================================
 
+A plugin for the learning management system moodle to provide population of a
+table with localist event data.
+
+- @package    qtype
+- @subpackage musicscale
+- @copyright  2013 Jay Huber <jhuber@colum.edu> for Moodle 2.x
+- @copyright  2013 Eric Brisson <ebrisson@winona.edu> for Moodle 1.x and Flash Component
+- @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+
+PLEASE NOTE - A NEW VERSION OF THIS PLUGIN WILL BE RELEASED VERY SOON.
+              IT WILL USE VEXFLOW (http://vexflow.com/) HTML5/CANVAS/JQUERY/JAVASCRIPT 
+              AND REMOVE THE FLASH PLUGIN
+
+
+Description
+-----------
 This question type deals with musical scales. The respondent is given a note and is prompted to enter the degrees of the scale. Major scales as well as all types of minor scales (natural, harmonic and melodic) are supported, with or without a key signature. Answers are entered in a graphical user interface.
 
 Import/Export to Moodle XMl format is supported, and a question bank is provided, including all major and minor scales, with and without a key signature.
@@ -9,10 +27,9 @@ This plugin is released under the GNU General Public License V3.
 Maintainer: Eric Brisson (ebrisson at winona.edu), Moodle 1.x & Flash Component
 Maintainer: Jay Huber (jhuber@colum.edu), Moodle 2.x
 
-------------------------------------
 
-INSTALLATION
-
+Installation
+------------
 Requirements:
 
 1) 	Moodle 2.3.x
@@ -28,5 +45,31 @@ How to install:
 2) Load the "Notifications" page on the Moodle home page - this will create database tables used by the question type.
 
 
-KNOWN ISSUES:
-Have not tested or for that matter really worked on the code for Import/Export of Questions
+
+Code Location
+-------------
+You can always find the latest version at: https://github.com/jayhuber/musicscale
+Moodle plugins will notify you as I update the code on Moodle.org
+
+
+Bug Reports
+-----------
+Report all bugs on https://github.com/jayhuber/musicscale/issues
+
+
+Changelog
+---------
+v2013071600
+- Updated this readme file
+- Removed import/export overrides which should fix the issue of importing/exporting data
+- Fixed Multiple answers bug where only first answer is compared.
+- Updated copyright dates
+
+Release notes
+-------------
+v2013071600
+- Stable Release
+
+
+
+
