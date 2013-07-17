@@ -65,8 +65,14 @@ v2013071600
 - Fixed Multiple answers bug where only first answer is compared.
 - Updated copyright dates
 
+v2013071601
+- Fixed the score marking issue for multiple answer questions
+
 Release notes
 -------------
+v2013071601
+- Stable Release
+
 v2013071600
 - Stable Release
 

@@ -73,11 +73,18 @@ class qtype_musicscale_question extends question_graded_automatically {
     }
 
     public function grade_response(array $response) {
-        if ($this->rightanswer == $response['answer']) {
-            $fraction = 1;
-        } else {
-            $fraction = 0;
+        $answer = $response['answer'];
+        if (substr($answer, -1, 1) == ',') {
+          $answer = substr($answer, 0, -1);
         }
+        
+        $fraction = 0;
+        foreach ($this->answers as $a) {
+            if ($a->answer == $answer) {
+                $fraction = 1;
+            }
+        }
+        
         return array($fraction, question_state::graded_state_for_fraction($fraction));
     }
 
