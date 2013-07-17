@@ -1,9 +1,6 @@
 Readme file for the MUSICAL SCALE question type
 ===============================================
 
-A plugin for the learning management system moodle to provide population of a
-table with localist event data.
-
 - @package    qtype
 - @subpackage musicscale
 - @copyright  2013 Jay Huber <jhuber@colum.edu> for Moodle 2.x
@@ -35,7 +32,7 @@ Requirements:
 1) 	Moodle 2.3.x
 	The plug-in might work with previous versions of 2, but has only been tested with this version.
 
-2) 	PHP 5: the plug-in was coded with version 5.2.9. It hasn't been tested with ealier versions of PHP.
+2) 	PHP 5: the plug-in was coded with version 5.2.9. It hasn't been tested with earlier versions of PHP.
 
 3)	Javascript is used to for communication with the Flash input component, and must be enabled for the question type to work.
 
@@ -67,3 +64,6 @@ v2013071600 - release v1.2 Stable
 
 v2013071601 - release v1.3 Stable
 - Fixed the score marking issue for multiple answer questions
+
+v2013071700 - release v1.3 Stable
+- Aligning Moodle version to match the other music plugins
