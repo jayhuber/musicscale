@@ -33,4 +33,4 @@ $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->component = 'qtype_musicscale';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.1 for Moodle 2.3+ & 2.4+';
+$plugin->release   = '1.3 for Moodle 2.3+ & 2.4+';

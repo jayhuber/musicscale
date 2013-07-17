@@ -59,23 +59,11 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
-v2013071600
+v2013071600 - release v1.2 Stable
 - Updated this readme file
 - Removed import/export overrides which should fix the issue of importing/exporting data
 - Fixed Multiple answers bug where only first answer is compared.
 - Updated copyright dates
 
-v2013071601
+v2013071601 - release v1.3 Stable
 - Fixed the score marking issue for multiple answer questions
-
-Release notes
--------------
-v2013071601
-- Stable Release
-
-v2013071600
-- Stable Release
-
-
-
-
