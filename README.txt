@@ -56,14 +56,21 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013072000 - release v1.4 Stable
+- Fixed Backup/Restore capability 
+- Aligned code to more closely match 2.x template and removed much unused code
+- Cleaned up copyright tags
+
+v2013071700 - release v1.3 Stable
+- Aligning Moodle version to match the other music plugins
+
+v2013071601 - release v1.3 Stable
+- Fixed the score marking issue for multiple answer questions
+
 v2013071600 - release v1.2 Stable
 - Updated this readme file
 - Removed import/export overrides which should fix the issue of importing/exporting data
 - Fixed Multiple answers bug where only first answer is compared.
 - Updated copyright dates
 
-v2013071601 - release v1.3 Stable
-- Fixed the score marking issue for multiple answer questions
 
-v2013071700 - release v1.3 Stable
-- Aligning Moodle version to match the other music plugins

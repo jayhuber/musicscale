@@ -5,7 +5,7 @@
       <text>$course$/Scales/With KS/Major</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C major</text>
     </name>
@@ -32,7 +32,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G major</text>
     </name>
@@ -59,7 +59,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D major</text>
     </name>
@@ -86,7 +86,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A major</text>
     </name>
@@ -113,7 +113,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E major</text>
     </name>
@@ -140,7 +140,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B major</text>
     </name>
@@ -167,7 +167,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# major</text>
     </name>
@@ -194,7 +194,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# major</text>
     </name>
@@ -221,7 +221,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F major</text>
     </name>
@@ -248,7 +248,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb major</text>
     </name>
@@ -275,7 +275,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb major</text>
     </name>
@@ -302,7 +302,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab major</text>
     </name>
@@ -329,7 +329,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Db major</text>
     </name>
@@ -356,7 +356,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Gb major</text>
     </name>
@@ -383,7 +383,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Cb major</text>
     </name>
@@ -415,7 +415,7 @@
       <text>$course$/Scales/Without KS/Major</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C major</text>
     </name>
@@ -442,7 +442,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G major</text>
     </name>
@@ -469,7 +469,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D major</text>
     </name>
@@ -496,7 +496,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A major</text>
     </name>
@@ -523,7 +523,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E major</text>
     </name>
@@ -550,7 +550,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B major</text>
     </name>
@@ -577,7 +577,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# major</text>
     </name>
@@ -604,7 +604,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# major</text>
     </name>
@@ -631,7 +631,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F major</text>
     </name>
@@ -658,7 +658,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb major</text>
     </name>
@@ -685,7 +685,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb major</text>
     </name>
@@ -712,7 +712,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab major</text>
     </name>
@@ -739,7 +739,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Db major</text>
     </name>
@@ -766,7 +766,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Gb major</text>
     </name>
@@ -793,7 +793,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Cb major</text>
     </name>
@@ -825,7 +825,7 @@
       <text>$course$/Scales/With KS/Natural Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A natural minor</text>
     </name>
@@ -852,7 +852,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E natural minor</text>
     </name>
@@ -879,7 +879,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B natural minor</text>
     </name>
@@ -906,7 +906,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# natural minor</text>
     </name>
@@ -933,7 +933,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# natural minor</text>
     </name>
@@ -960,7 +960,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# natural minor</text>
     </name>
@@ -987,7 +987,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# natural minor</text>
     </name>
@@ -1014,7 +1014,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# natural minor</text>
     </name>
@@ -1041,7 +1041,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D natural minor</text>
     </name>
@@ -1068,7 +1068,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G natural minor</text>
     </name>
@@ -1095,7 +1095,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C natural minor</text>
     </name>
@@ -1122,7 +1122,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F natural minor</text>
     </name>
@@ -1149,7 +1149,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb natural minor</text>
     </name>
@@ -1176,7 +1176,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb natural minor</text>
     </name>
@@ -1203,7 +1203,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab natural minor</text>
     </name>
@@ -1235,7 +1235,7 @@
       <text>$course$/Scales/Without KS/Natural Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A natural minor</text>
     </name>
@@ -1262,7 +1262,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E natural minor</text>
     </name>
@@ -1289,7 +1289,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B natural minor</text>
     </name>
@@ -1316,7 +1316,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# natural minor</text>
     </name>
@@ -1343,7 +1343,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# natural minor</text>
     </name>
@@ -1370,7 +1370,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# natural minor</text>
     </name>
@@ -1397,7 +1397,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# natural minor</text>
     </name>
@@ -1424,7 +1424,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# natural minor</text>
     </name>
@@ -1451,7 +1451,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D natural minor</text>
     </name>
@@ -1478,7 +1478,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G natural minor</text>
     </name>
@@ -1505,7 +1505,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C natural minor</text>
     </name>
@@ -1532,7 +1532,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F natural minor</text>
     </name>
@@ -1559,7 +1559,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb natural minor</text>
     </name>
@@ -1586,7 +1586,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb natural minor</text>
     </name>
@@ -1613,7 +1613,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab natural minor</text>
     </name>
@@ -1645,7 +1645,7 @@
       <text>$course$/Scales/With KS/Harmonic Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A harmonic minor</text>
     </name>
@@ -1672,7 +1672,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E harmonic minor</text>
     </name>
@@ -1699,7 +1699,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B harmonic minor</text>
     </name>
@@ -1726,7 +1726,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# harmonic minor</text>
     </name>
@@ -1753,7 +1753,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# harmonic minor</text>
     </name>
@@ -1780,7 +1780,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# harmonic minor</text>
     </name>
@@ -1807,7 +1807,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# harmonic minor</text>
     </name>
@@ -1834,7 +1834,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# harmonic minor</text>
     </name>
@@ -1861,7 +1861,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D harmonic minor</text>
     </name>
@@ -1888,7 +1888,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G harmonic minor</text>
     </name>
@@ -1915,7 +1915,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C harmonic minor</text>
     </name>
@@ -1942,7 +1942,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F harmonic minor</text>
     </name>
@@ -1969,7 +1969,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb harmonic minor</text>
     </name>
@@ -1996,7 +1996,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb harmonic minor</text>
     </name>
@@ -2023,7 +2023,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab harmonic minor</text>
     </name>
@@ -2055,7 +2055,7 @@
       <text>$course$/Scales/Without KS/Harmonic Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A harmonic minor</text>
     </name>
@@ -2082,7 +2082,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E harmonic minor</text>
     </name>
@@ -2109,7 +2109,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B harmonic minor</text>
     </name>
@@ -2136,7 +2136,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# harmonic minor</text>
     </name>
@@ -2163,7 +2163,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# harmonic minor</text>
     </name>
@@ -2190,7 +2190,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# harmonic minor</text>
     </name>
@@ -2217,7 +2217,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# harmonic minor</text>
     </name>
@@ -2244,7 +2244,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# harmonic minor</text>
     </name>
@@ -2271,7 +2271,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D harmonic minor</text>
     </name>
@@ -2298,7 +2298,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G harmonic minor</text>
     </name>
@@ -2325,7 +2325,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C harmonic minor</text>
     </name>
@@ -2352,7 +2352,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F harmonic minor</text>
     </name>
@@ -2379,7 +2379,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb harmonic minor</text>
     </name>
@@ -2406,7 +2406,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb harmonic minor</text>
     </name>
@@ -2433,7 +2433,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab harmonic minor</text>
     </name>
@@ -2465,7 +2465,7 @@
       <text>$course$/Scales/With KS/Melodic Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A melodic minor</text>
     </name>
@@ -2492,7 +2492,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E melodic minor</text>
     </name>
@@ -2519,7 +2519,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B melodic minor</text>
     </name>
@@ -2546,7 +2546,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# melodic minor</text>
     </name>
@@ -2573,7 +2573,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# melodic minor</text>
     </name>
@@ -2600,7 +2600,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# melodic minor</text>
     </name>
@@ -2627,7 +2627,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# melodic minor</text>
     </name>
@@ -2654,7 +2654,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# melodic minor</text>
     </name>
@@ -2681,7 +2681,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D melodic minor</text>
     </name>
@@ -2708,7 +2708,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G melodic minor</text>
     </name>
@@ -2735,7 +2735,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C melodic minor</text>
     </name>
@@ -2762,7 +2762,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F melodic minor</text>
     </name>
@@ -2789,7 +2789,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb melodic minor</text>
     </name>
@@ -2816,7 +2816,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb melodic minor</text>
     </name>
@@ -2843,7 +2843,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab melodic minor</text>
     </name>
@@ -2875,7 +2875,7 @@
       <text>$course$/Scales/Without KS/Melodic Minor</text>
     </category>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A melodic minor</text>
     </name>
@@ -2902,7 +2902,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>E melodic minor</text>
     </name>
@@ -2929,7 +2929,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>B melodic minor</text>
     </name>
@@ -2956,7 +2956,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F# melodic minor</text>
     </name>
@@ -2983,7 +2983,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C# melodic minor</text>
     </name>
@@ -3010,7 +3010,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G# melodic minor</text>
     </name>
@@ -3037,7 +3037,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D# melodic minor</text>
     </name>
@@ -3064,7 +3064,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>A# melodic minor</text>
     </name>
@@ -3091,7 +3091,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>D melodic minor</text>
     </name>
@@ -3118,7 +3118,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>G melodic minor</text>
     </name>
@@ -3145,7 +3145,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>C melodic minor</text>
     </name>
@@ -3172,7 +3172,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>F melodic minor</text>
     </name>
@@ -3199,7 +3199,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Bb melodic minor</text>
     </name>
@@ -3226,7 +3226,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Eb melodic minor</text>
     </name>
@@ -3253,7 +3253,7 @@
       </feedback>
     </answer>
   </question>
-  <question type="scale">
+  <question type="musicscale">
     <name>
       <text>Ab melodic minor</text>
     </name>
