@@ -18,7 +18,6 @@
  * @package    qtype
  * @subpackage musicscale
  * @copyright  2013 Jay Huber (jhuber@colum.edu)
- * @copyright  2009 Eric Bisson (ebrisson@winona.edu)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -34,6 +33,21 @@ defined('MOODLE_INTERNAL') || die();
 class qtype_musicscale_edit_form extends question_edit_form {
 
     protected function definition_inner($mform) {
+        global $CFG, $PAGE;
+
+     	$PAGE->requires->js('/question/type/musicscale/js/jquery-1.6.2.min.js');
+        $PAGE->requires->js('/question/type/musicscale/js/vexflow.js');
+        $PAGE->requires->js('/question/type/musicscale/js/music_functions.js');
+        $PAGE->requires->js('/question/type/musicscale/js/scale_form.js');
+        $PAGE->requires->css('/question/type/musicscale/styles.css');
+
+        $out  = '<script>';
+        $out .= 'nonexistkey = "'.get_string('nonexistentkey','qtype_musicscale').'";';
+        $out .= 'noteletterout = "'.get_string('noteletterout','qtype_musicscale').'";';
+        $out .= 'outofrange = "'.get_string('outofrange','qtype_musicscale').'"';
+        $out .= '</script>';
+        echo $out;
+
         $mform->addElement('select', 'includeks', get_string('includeks','qtype_musicscale'), 
                             array("y" => get_string('yes', 'qtype_musicscale'),
                                   "n" => get_string('no', 'qtype_musicscale')
@@ -54,10 +68,10 @@ class qtype_musicscale_edit_form extends question_edit_form {
                            array("C" => get_string('C','qtype_musicscale'),
                                  "D" => get_string('D','qtype_musicscale'),
                                  "E" => get_string('E','qtype_musicscale'),
-                        		     "F" => get_string('F','qtype_musicscale'),
-                        		     "G" => get_string('G','qtype_musicscale'),
-                        		     "A" => get_string('A','qtype_musicscale'),
-                        	 	     "B" => get_string('B','qtype_musicscale')
+                        		 "F" => get_string('F','qtype_musicscale'),
+                        		 "G" => get_string('G','qtype_musicscale'),
+                        		 "A" => get_string('A','qtype_musicscale'),
+                        	 	 "B" => get_string('B','qtype_musicscale')
                   		    ));
 
     	$mform->addHelpButton('orignoteletter', 'orignoteletter', 'qtype_musicscale');
@@ -69,12 +83,22 @@ class qtype_musicscale_edit_form extends question_edit_form {
 		$mform->addHelpButton('orignoteaccidental', 'orignoteaccidental', 'qtype_musicscale');
         
         $mform->addElement('select', 'orignoteregister', get_string('orignoteregister','qtype_musicscale'), 
-                           array("2" => "2", "3" => "3", "4" => "4", "5" => "5",
+                           array("1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5"
                            ));
 
     	$mform->addHelpButton('orignoteregister', 'orignoteregister', 'qtype_musicscale');
 
-        
+        $mform->addElement('select', 'forceclef', 
+            get_string('forceclef','qtype_musicscale'), 
+            array("" => "Default",
+                  "treble" => "Treble",
+                  "bass"  => "Bass",
+                  "alto"  => "Alto",
+                  "tenor" => "Tenor"
+        ));
+
+        $mform->addHelpButton('forceclef', 'forceclef', 'qtype_musicscale');
+
     	$this->add_per_answer_fields($mform, get_string('answerno', 'qtype_musicscale', '{no}'),
     		        	             question_bank::fraction_options(), 1, 1);
 

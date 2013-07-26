@@ -1,0 +1,65 @@
+.musicscale .music {
+	z-index:1;
+	background: #EED;
+	border: 10px solid #DDDDCC;
+}
+.musicscale #context_menu {
+	display:none;
+	position:absolute;
+	line-height:20px;
+	background-color:grey;
+	padding:5px;
+}
+
+.musicscale #music_buttons {
+  margin-left:20px;
+}
+
+.musicscale input[type=checkbox] {
+    display:none; 
+    margin:10px;
+}
+
+.musicscale input[type=checkbox] + label,
+.musicscale #context_menu img {
+  width:15px;
+}
+
+.musicscale .button {
+	margin-top:5px;
+	width:auto;
+
+}
+
+.musicscale input[type=checkbox] + label,
+.musicscale #context_menu img,
+.musicscale .button {
+  height:15px;
+  display:inline-block;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #000;
+  padding: 5px;
+  vertical-align:middle;
+}
+
+.musicscale .accidental {
+	width:15px;
+	height:15px;
+}
+
+.musicscale input[type=checkbox]:checked + label,
+.musicscale #context_menu img:hover,
+.musicscale .button:hover { 
+  background-image: none;
+  background-color:#d0d0d0;
+}
+
+.musicscale #instructions h5 {
+  margin-bottom:10px;
+}
+.musicscale #instructions p {
+  margin-top:-10px;
+}

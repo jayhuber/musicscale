@@ -18,7 +18,6 @@
  * @package    qtype
  * @subpackage musicscale
  * @copyright  2013 Jay Huber (jhuber@colum.edu)
- * @copyright  2009 Eric Bisson (ebrisson@winona.edu)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

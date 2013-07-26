@@ -18,7 +18,6 @@
  * @package    qtype
  * @subpackage musicscale
  * @copyright  2013 Jay Huber (jhuber@colum.edu)
- * @copyright  2009 Eric Bisson (ebrisson@winona.edu)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -46,6 +45,8 @@
  $string['orignoteletter'] = 'Tonic letter';
  $string['orignoteregister'] = 'Tonic register';
  $string['orignoteaccidental'] = 'Tonic accidental';
+ $string['forceclef'] = 'Force Clef';
+ $string['forceclef_help'] = 'This will override the default generated Clef.';
  $string['answerno'] = 'Answer {$a}';
  $string['answer'] = 'answer';
  $string['C'] = 'C';
@@ -64,3 +65,8 @@
  $string['answer_help'] = '<p>Enter the notes of the scale in this format:</p><p>[Letter name (C,D,E,F,G,B)] [Accidental (# or b)] [register, using the <a href="http://en.wikipedia.org/wiki/Scientific_pitch_notation" target="_blank">scientific pitch notation</a>]</p><p>Insert commas between the notes, without spaces. Include the tonic note both at the beginning and at the end of the scale.</p><p>Examples:</p><ul><li>The solution for the E major scale where the tonic is E4 should be entered as: <br><strong>E4,F#4,G#4,A4,B4,C#5,D#5,E5</strong></li><li>The solution for the F# melodic minor scale where the tonic is F#3 should be entered as: <br><strong>F#3,G#3,A3,B3,C#4,D#4,E#4,F#4,E4,D4,C#4,B3,A3,G#3,F#3</strong></li></ul><p>You can click "Blanks for 3 More Choices" to add other answers that yield a partial grade. At least one of the answers must be assigned a full grade of 100%.</p>';
  $string['scale_help'] = "The respondent is given a tonic, mode, clef and scale type, and is asked to enter the corresponding scale on the staff.";
  $string['orignoteregister_help'] = 'Specifies the register where the tonic lies, using the <a href="http://en.wikipedia.org/wiki/Scientific_pitch_notation" target="_blank">scientific pitch notation</a>.';
+ $string['modescale_help'] = "Specifies the type of scale to be entered.";
+ $string['instructions'] = '<h5>Instructions</h5><p>Move your mouse over the stave to generate a note.</p><p>When you have reached the location to place it, left click with your mouse to lock it.</p><p>If you need to move the note, left click on it, and move it to the new location, then left click to lock it back in.</p><p>To add accidentals to the note, Right click on it and a context menu will appear.';
+ $string['noteletterout'] = 'You have added a note letter that is out of range.';
+ $string['registerout'] = 'You have added a register that is out of range.';
+ $string['outofrange'] = 'The clef and note(s) that have been selected are out of range.';

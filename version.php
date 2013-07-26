@@ -18,15 +18,14 @@
  * @package    qtype
  * @subpackage musicscale
  * @copyright  2013 Jay Huber (jhuber@colum.edu)
- * @copyright  2009 Eric Bisson (ebrisson@winona.edu)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qtype_musicscale';
-$plugin->version   = 2013072000;
+$plugin->version   = 2013072600;
 $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.4 for Moodle 2.3+ & 2.4+';
+$plugin->release   = '2.0 for Moodle 2.3+ & 2.4+';

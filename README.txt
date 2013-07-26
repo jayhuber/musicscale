@@ -3,14 +3,26 @@ Readme file for the MUSICAL SCALE question type
 
 - @package    qtype
 - @subpackage musicscale
-- @copyright  2013 Jay Huber <jhuber@colum.edu> for Moodle 2.x
-- @copyright  2013 Eric Brisson <ebrisson@winona.edu> for Moodle 1.x and Flash Component
+- @copyright  2013 Jay Huber <jhuber@colum.edu>
 - @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 
 
-PLEASE NOTE - A NEW VERSION OF THIS PLUGIN WILL BE RELEASED VERY SOON.
-              IT WILL USE VEXFLOW (http://vexflow.com/) HTML5/CANVAS/JQUERY/JAVASCRIPT 
-              AND REMOVE THE FLASH PLUGIN
+Version 2 Warning
+-----------------
+Version 2 is a complete rewrite attempting to keep as much backend intact.  You should make a full backup of any classes that use Music Scales before
+proceeding with this update.  Upgrading is at your own risk.  I do believe this is a solid release and will cause you know ill effect, but, I 
+may have overlooked a scenario that I didn't consider. I have spent months on this rewrite, and I hope you enjoy.
+
+The questions, answers, and previous student answers on the bass clef had to be transposed a register lower.  
+Also, if you had key signature turned on for your questions, the answers had to be transposed to how this update writes the answers.
+
+Please report all bugs as indicated below.
+
+
+Other Credits
+-------
+Dr. Erik Brisson <ebrisson@winona.edu> who originally made a music scale question for Moodle 1.x using the Flash player and still deserves credit!
+Mohit Muthanna a.k.a. 0xFE, who started the vexflow project using html5, canvas, and jquery - and all the contributors to this project!
 
 
 Description
@@ -21,7 +33,6 @@ Import/Export to Moodle XMl format is supported, and a question bank is provided
 
 This plugin is released under the GNU General Public License V3. 
 
-Maintainer: Eric Brisson (ebrisson at winona.edu), Moodle 1.x & Flash Component
 Maintainer: Jay Huber (jhuber@colum.edu), Moodle 2.x
 
 
@@ -56,16 +67,22 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
-v2013072000 - release v1.4 Stable
-- Fixed Backup/Restore capability 
-- Aligned code to more closely match 2.x template and removed much unused code
-- Cleaned up copyright tags
+v2013072600 - release v2.0 Stable
+- Removed the Flash Plugin and replaced with Vexflow
+- All other necessary adjustment to get this program to be switched over.
+- WARNING: THIS WILL TRANSPOSE ALL BASS CLEF QUESTIONS, ANSWERS AND STUDENT ANSWERS as well as questions that contain key signatures.
 
-v2013071700 - release v1.3 Stable
-- Aligning Moodle version to match the other music plugins
+v2013071600 - release v1.2 Stable
+- Updated this readme file
+- Removed import/export overrides which should fix the issue of importing/exporting data
+- Fixed Multiple answers bug where only first answer is compared.
+- Updated copyright dates
 
 v2013071601 - release v1.3 Stable
 - Fixed the score marking issue for multiple answer questions
+
+v2013071700 - release v1.3 Stable
+- Aligning Moodle version to match the other music plugins
 
 v2013071600 - release v1.2 Stable
 - Updated this readme file
