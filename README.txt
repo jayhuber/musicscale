@@ -72,11 +72,10 @@ v2013072600 - release v2.0 Stable
 - All other necessary adjustment to get this program to be switched over.
 - WARNING: THIS WILL TRANSPOSE ALL BASS CLEF QUESTIONS, ANSWERS AND STUDENT ANSWERS as well as questions that contain key signatures.
 
-v2013071600 - release v1.2 Stable
-- Updated this readme file
-- Removed import/export overrides which should fix the issue of importing/exporting data
-- Fixed Multiple answers bug where only first answer is compared.
-- Updated copyright dates
+v2013072000 - release v1.4 Stable
+- Fixed Backup/Restore capability 
+- Aligned code to more closely match 2.x template and removed much unused code
+- Cleaned up copyright tags
 
 v2013071601 - release v1.3 Stable
 - Fixed the score marking issue for multiple answer questions
