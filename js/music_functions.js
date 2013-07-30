@@ -4,6 +4,8 @@ var stave_size = 0;
 var interval_adjust = 0;
 var ghost_note_type = "w";
 var context_stave = "";
+var isIE = /*@cc_on!@*/!1;
+console.log(isIE);
 
 //var keySig = new Vex.Flow.KeySignature("F");
 //keySig.addToStave(staves[0])
@@ -635,6 +637,9 @@ function GetY(e) {
 	if (y == undefined) { //this is for firefox
 		y = e.layerY;
 		y -= 90;
+	}
+	if (isIE == true) {
+	  y += 10;
 	}
 	
 	return y;
