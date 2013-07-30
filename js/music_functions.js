@@ -5,7 +5,6 @@ var interval_adjust = 0;
 var ghost_note_type = "w";
 var context_stave = "";
 var isIE = /*@cc_on!@*/!1;
-console.log(isIE);
 
 //var keySig = new Vex.Flow.KeySignature("F");
 //keySig.addToStave(staves[0])
