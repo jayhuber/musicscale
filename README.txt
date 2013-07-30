@@ -67,6 +67,9 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013073001 - release v2.02 Stable
+- Another Fix for the X Position for IE browsers
+
 v2013073000 - release v2.01 Stable
 - Fixed offsets for Firefox, IE and Safari Browsers
 

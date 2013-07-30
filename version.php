@@ -24,8 +24,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qtype_musicscale';
-$plugin->version   = 2013073000;
+$plugin->version   = 2013073001;
 $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '2.01 for Moodle 2.3+ & 2.4+';
+$plugin->release   = '2.02 for Moodle 2.3+ & 2.4+';
