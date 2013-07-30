@@ -395,7 +395,7 @@ function NoteOverlay(e, id, canvas, stave) {
 		var y = GetY(e);
 		
 		note_selected = null;
-        offset = stave.start_x + 25;
+    offset = stave.start_x + 25;
 
 		if ((x >= offset) && (x <= stave_size+50)) {
 			if (stave.first_ghost == null)  {
@@ -624,7 +624,9 @@ function GetX(e) {
 	var x = e.offsetX;
 	if (x == undefined) { //this is for firefox
 		x = e.layerX;
+		x -= 130;
 	}
+	
 	return x;
 }
 
@@ -632,7 +634,9 @@ function GetY(e) {
 	var y = e.offsetY;
 	if (y == undefined) { //this is for firefox
 		y = e.layerY;
+		y -= 90;
 	}
+	
 	return y;
 }
 

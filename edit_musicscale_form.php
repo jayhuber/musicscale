@@ -35,7 +35,7 @@ class qtype_musicscale_edit_form extends question_edit_form {
     protected function definition_inner($mform) {
         global $CFG, $PAGE;
 
-     	$PAGE->requires->js('/question/type/musicscale/js/jquery-1.6.2.min.js');
+     	  $PAGE->requires->js('/question/type/musicscale/js/jquery-1.6.2.min.js');
         $PAGE->requires->js('/question/type/musicscale/js/vexflow.js');
         $PAGE->requires->js('/question/type/musicscale/js/music_functions.js');
         $PAGE->requires->js('/question/type/musicscale/js/scale_form.js');
