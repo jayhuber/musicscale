@@ -67,6 +67,9 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013073000 - release v2.01 Stable
+- Fixed offsets for Firefox, IE and Safari Browsers
+
 v2013072600 - release v2.0 Stable
 - Removed the Flash Plugin and replaced with Vexflow
 - All other necessary adjustment to get this program to be switched over.
