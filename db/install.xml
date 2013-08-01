@@ -9,7 +9,7 @@
         <FIELD NAME="modescale" TYPE="char" LENGTH="2" NOTNULL="true" SEQUENCE="false" PREVIOUS="includeks" NEXT="orignoteletter"/>
         <FIELD NAME="orignoteletter" TYPE="char" LENGTH="1" NOTNULL="true" SEQUENCE="false" PREVIOUS="modescale" NEXT="orignoteaccidental"/>
         <FIELD NAME="orignoteaccidental" TYPE="char" LENGTH="1" NOTNULL="true" SEQUENCE="false" PREVIOUS="orignoteletter" NEXT="orignoteregister"/>
-        <FIELD NAME="orignoteregister" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" PREVIOUS="orignoteaccidental" NEXT="force_scale"/>
+        <FIELD NAME="orignoteregister" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" PREVIOUS="orignoteaccidental" NEXT="forceclef"/>
         <FIELD NAME="forceclef" TYPE="char" LENGTH="10" NOTNULL="true" SEQUENCE="false" PREVIOUS="orignoteregister"/>
       </FIELDS>
       <KEYS>

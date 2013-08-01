@@ -67,6 +67,9 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013073100 - release v2.03 Stable
+- Fixed install.xml reference to next incorrect
+
 v2013073001 - release v2.02 Stable
 - Another Fix for the X Position for IE browsers
 
