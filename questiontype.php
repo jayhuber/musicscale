@@ -98,8 +98,8 @@ class qtype_musicscale extends question_type {
         $context = $question->context;
 
         // Get all the old answers from the database as an array
-		$conditions = array("question" => $question->id);
-		$answers = $DB->get_records("question_answers", $conditions);
+		    $conditions = array("question" => $question->id);
+		    $answers = $DB->get_records("question_answers", $conditions);
         if (!$oldanswers = $answers) {
             $oldanswers = array();
         }
@@ -121,21 +121,21 @@ class qtype_musicscale extends question_type {
                 $answer = $oldanswer;
                 $answer->answer   = trim($dataanswer);
                 $answer->fraction = $question->fraction[$key];
-	            $answer->feedback = $this->import_or_save_files($question->feedback[$key],
+	              $answer->feedback = $this->import_or_save_files($question->feedback[$key],
 	                    $context, 'question', 'answerfeedback', $answer->id);
-	            $answer->feedbackformat = $question->feedback[$key]['format'];
+	              $answer->feedbackformat = $question->feedback[$key]['format'];
 
                 // Update the record in the database table
                 if (!$DB->update_record('question_answers', $answer)) {
                     throw new Exception("Could not update quiz answer! (id=$answer->id)");
                 }
             }  else {
-	            // This is a completely new answer so we have to create a new record
+	              // This is a completely new answer so we have to create a new record
                 $answer = new stdClass;
                 $answer->answer   = trim($dataanswer);
                 $answer->question = $question->id;
-	            $answer->fraction = '';
-	            $answer->feedback = '';
+	              $answer->fraction = '';
+	              $answer->feedback = '';
 
                 // Insert a new record into the database table
                 if (!$answer->id = $DB->insert_record('question_answers', $answer)) {
@@ -143,12 +143,12 @@ class qtype_musicscale extends question_type {
                 }
             }
 
-			//Add this to the answer
-			$answer->fraction = $question->fraction[$key];
+			      //Add this to the answer
+			      $answer->fraction = $question->fraction[$key];
             $answer->feedback = $this->import_or_save_files($question->feedback[$key],
                     $context, 'question', 'answerfeedback', $answer->id);
             $answer->feedbackformat = $question->feedback[$key]['format'];
-			$DB->update_record('question_answers', $answer);
+			      $DB->update_record('question_answers', $answer);
 
             // Add the answer ID to the array of IDs
             $answers[] = $answer->id;

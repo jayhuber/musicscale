@@ -1,36 +1,36 @@
 $().ready(function() {
-    $("form.mform").submit(function() {
-        $('*[id^=id_answer_]:visible').each(function() {
-            answer = $("#"+this.id).val();
-            if (answer.indexOf(",") == -1) {
-                $("#"+this.id).val("");
-            }
-        });
+  $("form.mform").submit(function() {
+    $('*[id^=id_answer_]:visible').each(function() {
+      answer = $("#"+this.id).val();
+      if (answer.indexOf(",") == -1) {
+        $("#"+this.id).val("");
+      }
     });
+  });
 
-    $('#id_includeks, #id_modescale, #id_orignoteletter, #id_orignoteaccidental, #id_orignoteregister, #id_forceclef').change(function() {
-        includesks = $("#id_includeks").val();
+  $('#id_includeks, #id_modescale, #id_orignoteletter, #id_orignoteaccidental, #id_orignoteregister, #id_forceclef').change(function() {
+    includesks = $("#id_includeks").val();
 		letter = $("#id_orignoteletter").val().toLowerCase();
 		register = $("#id_orignoteregister").val();
 		accidental = $("#id_orignoteaccidental").val();
 		forceclef = $("#id_forceclef").val();
-        scaletype = $("#id_modescale").val();
+    scaletype = $("#id_modescale").val();
 
-        if (ValidateOptions(letter,accidental,scaletype) == false) {
-            alert(nonexistkey);
-            return false;
-        }
+    if (ValidateOptions(letter,accidental,scaletype) == false) {
+      alert(nonexistkey);
+      return false;
+    }
 
 		FormChanges(letter, register, accidental, scaletype, includesks, forceclef);
 		
 		$('*[id^=id_answer_]:visible').each(function() {
-        for (var i=0;i<canvases.length;i++) {
-            if (this.id == canvases[i].answer.id) {
-                StaveUpdate(this, canvases[i])
-            }
+      for (var i=0;i<canvases.length;i++) {
+        if (this.id == canvases[i].answer.id) {
+          StaveUpdate(this, canvases[i])
         }
+      }
     })
-});
+  });
 
 //	console.log("include key signature: "+$("#id_includeks").val());
 //	console.log("scale type: "+$("#id_modescale").val());
@@ -82,26 +82,26 @@ $().ready(function() {
 		letter = $("#id_orignoteletter").val();
 		accidental = $("#id_orignoteaccidental").val();
 		clef = $("#id_forceclef").val();
-        scaletype = $("#id_modescale").val();
-        includesks = $("#id_includeks").val();
+    scaletype = $("#id_modescale").val();
+    includesks = $("#id_includeks").val();
     
 		CreateStave(this_canvas, register, letter, accidental, scaletype, includesks, clef, stave_size);
 
 		//draw the notes
 		answer = $("#id_answer_"+ac).val();
     
-        $("#id_answer_"+ac).bind('keyup', function(){
-            StaveUpdate(this, this_canvas);
-        })
+    $("#id_answer_"+ac).bind('keyup', function(){
+      StaveUpdate(this, this_canvas);
+    })
 
 		var this_stave = this_canvas.staves[this_canvas.staves.length-1];
 
 		if ((answer != "") && ($("#id_answer_0").val().indexOf(",") > 0)) {
 			ShowFullSolution(this_canvas, this_stave, answer);
-        } else {
-        	letter = $("#id_orignoteletter").val().toLowerCase();
-        	register = $("#id_orignoteregister").val();
-        	accidental = $("#id_orignoteaccidental").val();
+    } else {
+    	letter = $("#id_orignoteletter").val().toLowerCase();
+    	register = $("#id_orignoteregister").val();
+    	accidental = $("#id_orignoteaccidental").val();
 
 			ShowBlankSolution(this_canvas, this_stave, letter, register, accidental);
 		}
@@ -116,26 +116,24 @@ $().ready(function() {
 
 	$("#delete").bind('click', function() {
 		$("#context_menu").hide();
-        context_stave.notes.splice(context_stave.edit_pos,1);
-        context_stave.notes.push(new Vex.Flow.GhostNote("w"));
+    context_stave.notes.splice(context_stave.edit_pos,1);
+    context_stave.notes.push(new Vex.Flow.GhostNote("w"));
 
 		edit_note = null;
 		context_stave.edit_pos = null;
 		context_stave.note_selected = null;
 		context_stave.first_ghost = null;
 
-        for (var i=0;i<canvases.length;i++) {
-            if (canvases[i].canvas.id == context_stave.context.canvas.id) {
-                canvas_idx = i;
-                break;
-            }
-        }
+    for (var i=0;i<canvases.length;i++) {
+      if (canvases[i].canvas.id == context_stave.context.canvas.id) {
+        canvas_idx = i;
+        break;
+      }
+    }
 
 		ReDraw(canvases[canvas_idx]);
 		return false;
 	})
-
-
 
 })
 

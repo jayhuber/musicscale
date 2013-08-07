@@ -38,8 +38,11 @@ class qtype_musicscale_renderer extends qtype_renderer {
 		global $PAGE, $CFG;
 		$output = "";
 
-        $question = $qa->get_question();
+    $question = $qa->get_question();
 		$inputname = $qa->get_qt_field_name('answer');
+    $parts = explode(':', $inputname);
+    $slot = str_replace("_answer","",$parts[1]);
+		
 		$scriptname = preg_replace('/:[0-9]*_answer/', '', $inputname);
 		
 		$questiontext = $question->format_questiontext($qa);
@@ -48,25 +51,32 @@ class qtype_musicscale_renderer extends qtype_renderer {
 		$output .= html_writer::empty_tag('input', array(
 			'id' => $inputname,
 			'name' => $inputname,
-			'type' => 'hidden',
+			'type' => 'text',
 			'value' => $response));
 
-        $stave_size = 450;
-        $questiontext1 = get_string($question->orignoteletter, 'qtype_musicscale') ;
-        if ($question->modescale == "ma") {
-          $questiontext1 .= " ".get_string('modescale_major', 'qtype_musicscale');
-        } elseif ($question->modescale == "nm") {
-          $questiontext1 .= " ".get_string('modescale_natural_minor', 'qtype_musicscale');
-        } elseif ($question->modescale == "hm") {
-          $questiontext1 .= " ".get_string('modescale_harmonic_minor', 'qtype_musicscale');
-        } elseif ($question->modescale == "mm") {
-          $questiontext1 .= " ".get_string('modescale_melodic_minor', 'qtype_musicscale');
-          $stave_size = 800;
-        }
+    $stave_size = 450;
+    $questiontext1 = get_string($question->orignoteletter, 'qtype_musicscale') ;
+    if ($question->modescale == "ma") {
+      $questiontext1 .= " ".get_string('modescale_major', 'qtype_musicscale');
+    } elseif ($question->modescale == "nm") {
+      $questiontext1 .= " ".get_string('modescale_natural_minor', 'qtype_musicscale');
+    } elseif ($question->modescale == "hm") {
+      $questiontext1 .= " ".get_string('modescale_harmonic_minor', 'qtype_musicscale');
+    } elseif ($question->modescale == "mm") {
+      $questiontext1 .= " ".get_string('modescale_melodic_minor', 'qtype_musicscale');
+      $stave_size = 800;
+    }
 
-		$output .= html_writer::tag('div', $questiontext.$questiontext1, array('class' => 'qtext'));
-		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/jquery-1.6.2.min.js');
-		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/vexflow.js');
+    $output .= html_writer::tag('div', $questiontext.$questiontext1, array('class' => 'qtext'));
+
+    //these are getting loaded multiple times if multiple questions on page - preventing
+    if (!isset($CFG->musicjs)) {
+      $CFG->musicjs = true;
+  		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/jquery-1.6.2.min.js');
+  		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/vexflow.js');
+  		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/music_functions.js');
+  		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/scale_question.js');
+    } 
 
 		//Create Popup Menu
 		$menu_items  = html_writer::tag('img', "", array('id' => 'cm_clear', 'src' => $CFG->wwwroot.'/question/type/musicscale/images/empty.png'));
@@ -80,30 +90,24 @@ class qtype_musicscale_renderer extends qtype_renderer {
 		$menu_items .= html_writer::tag('div', $add_items, array());
 		$output .= html_writer::tag('div', $menu_items, array('id' => 'context_menu'));
 
-		$output .= html_writer::tag('canvas', '', array('id' => 'score', 'class' => 'music', 'width' => $stave_size+50, 'height' => 150));
+		$output .= html_writer::tag('canvas', '', array('id' => 'score_'.$slot, 'class' => 'music', 'width' => $stave_size+50, 'height' => 150));
 
 		$output .= isset($state->responses['']) ? $state->responses[''] : '';
+		
 		$q_setup = array(
 			'type' => 'scale',
-            'letter' => $question->orignoteletter,
-            'accidental' => $question->orignoteaccidental,
-            'register' => $question->orignoteregister,
-            'includeks' => $question->includeks,
-            'modescale' => $question->modescale,
-            'forceclef' => $question->forceclef,
-            'answer' => $inputname
+      'letter' => $question->orignoteletter,
+      'accidental' => $question->orignoteaccidental,
+      'register' => $question->orignoteregister,
+      'includeks' => $question->includeks,
+      'modescale' => $question->modescale,
+      'forceclef' => $question->forceclef,
+      'answer' => $inputname,
+      'slot' => $slot
 		);
 
-		$output .= html_writer::script('q_setup = '.json_encode($q_setup).';', '');
+		$output .= html_writer::script('q_setup[q_setup.length] = '.json_encode($q_setup).';', '');
 		$output .= html_writer::tag('div', get_string('instructions', 'qtype_musicscale'), array('id' => 'instructions'));
-		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/music_functions.js');
-		$output .= html_writer::script('', $CFG->wwwroot.'/question/type/musicscale/js/scale_question.js');
-
-//		$swfobject = 'swfobject.embedSWF("'.$CFG->wwwroot.'/question/type/musicscale/scales.swf", "flashcontent_'.$question->id.'", "1050", "320", "8.0.0", false, flashvars_'.$question->id.');';
-//		$output .= html_writer::script($swfobject, '');
-
-//		$setresponse = 'function setResponse_'.$scriptname.'_'.$question->id.'(str) { document.getElementById("'.$inputname.'").value = str; }';
-//		$output .= html_writer::script($setresponse, '');
 
 		return $output;
     }
@@ -122,6 +126,10 @@ class qtype_musicscale_renderer extends qtype_renderer {
         $question = $qa->get_question();
         $response = $qa->get_last_qt_var('answer', '');
         $answer = strtolower($response);
+
+    		$inputname = $qa->get_qt_field_name('answer');
+        $parts = explode(':', $inputname);
+        $slot = str_replace("_answer","",$parts[1]);
 
         $stave_size = 450;
         if ($question->modescale == "mm") {
@@ -163,8 +171,8 @@ class qtype_musicscale_renderer extends qtype_renderer {
 
 //            $output .= str_replace("|","<br />or<br />",$out_answer);
 
-            $a_setup = array('type' => 'scale', 'forceclef' => $question->forceclef, 'answer' => $out_answer);
-            $output .= html_writer::script('a_setup = '.json_encode($a_setup).';', '');
+            $a_setup = array('type' => 'scale', 'forceclef' => $question->forceclef, 'answer' => $out_answer, 'slot' => $slot);
+            $output .= html_writer::script('a_setup[a_setup.length] = '.json_encode($a_setup).';', '');
         }
 
         return $output;

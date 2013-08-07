@@ -5,6 +5,8 @@ var interval_adjust = 0;
 var ghost_note_type = "w";
 var context_stave = "";
 var isIE = /*@cc_on!@*/!1;
+var q_setup = new Array();
+var a_setup = new Array();
 
 //var keySig = new Vex.Flow.KeySignature("F");
 //keySig.addToStave(staves[0])
@@ -94,9 +96,9 @@ function StaveUpdate(obj, canvas) {
 
         if (letter != register) {
       		if (accidental == "") {
-      			stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}));
+      			stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}));
       		} else {
-       			stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
+       			stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
       		}
       		
           if (i == 0) {
@@ -147,8 +149,8 @@ function FormChanges(letter, register, accidental, scaletype, includesks, forcec
 			canvases[ac].staves[0].notes[0] = new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental));
 		}
 
-        canvases[ac].staves[0].notes[0].positionable = false;
-        canvases[ac].staves[0].notes[0].locked = true;
+    canvases[ac].staves[0].notes[0].positionable = false;
+    canvases[ac].staves[0].notes[0].locked = true;
 		ReDraw(canvases[ac]);
 
 		ac++;
@@ -157,7 +159,7 @@ function FormChanges(letter, register, accidental, scaletype, includesks, forcec
 
 function FormChangeClef(letter, register, accidental, scaletype, includesks, forceclef) {
 	current_clef = clef;
-	clef = GetClef(register, letter, forceclef);
+	var clef = GetClef(register, letter, forceclef);
 	
 	var ac = 0;
 	$('*[id^=id_answer_]:visible').each(function() {
@@ -167,10 +169,10 @@ function FormChangeClef(letter, register, accidental, scaletype, includesks, for
 		CreateStave(canvases[ac], register, letter, accidental, scaletype, includesks, forceclef, stave_size);
 		canvases[ac].staves[0].notes = temp_notes.slice(0);
 
-        SetMouseActions(canvases[ac].canvas.id, canvases[ac], canvases[ac].staves[0]);
+    SetMouseActions(canvases[ac].canvas.id, canvases[ac], canvases[ac].staves[0]);
 
-        ac++;
-    });
+    ac++;
+  });
 }
 
 
@@ -189,7 +191,7 @@ function SetMouseActions(id, canvas, stave) {
 	        default:
 				console.log("mouse click default?");
 	    }
-	})
+	});
 	$("#"+id).bind("contextmenu", function(e) {
 		if ($("#context_menu").is(":visible")) {  //|| (active_stave.locked == true)
 		} else {
@@ -228,7 +230,6 @@ function SetMouseActions(id, canvas, stave) {
 		}
 		return false;
 	});
-
 	$("#cm_clear, #cm_flat, #cm_sharp, #cm_natural, #cm_double_flat, #cm_double_sharp").unbind('click').bind('click', function() { 
 		$("#context_menu").hide();
 
@@ -260,39 +261,37 @@ function SetMouseActions(id, canvas, stave) {
 		context_stave.note_selected = null;
 
 		ReDraw(context_canvas);
-        RegenerateAnswer(context_canvas, context_stave)
+    RegenerateAnswer(context_canvas, context_stave)
 
 		return false;
 	});
 
-    $("#cancel").unbind('click').bind('click', function() { 
-        $("#context_menu").hide();
-        return false;
-    });
-    
-    $("#delete").bind('click', function() {
-		$("#context_menu").hide();
-        context_stave.notes.splice(context_stave.edit_pos,1);
-        context_stave.notes.push(new Vex.Flow.GhostNote("w"));
+  $("#cancel").unbind('click').bind('click', function() { 
+      $("#context_menu").hide();
+      return false;
+  });
+  
+  $("#delete").bind('click', function() {
+  	$("#context_menu").hide();
+    context_stave.notes.splice(context_stave.edit_pos,1);
+    context_stave.notes.push(new Vex.Flow.GhostNote("w"));
 
-		edit_note = null;
-		context_stave.edit_pos = null;
-		context_stave.note_selected = null;
-		context_stave.first_ghost = null;
+  	edit_note = null;
+  	context_stave.edit_pos = null;
+  	context_stave.note_selected = null;
+  	context_stave.first_ghost = null;
 
-        for (var i=0;i<canvases.length;i++) {
-            if (canvases[i].canvas.id == context_stave.context.canvas.id) {
-                canvas_idx = i;
-                break;
-            }
-        }
-        
-        RegenerateAnswer(context_canvas, context_stave)
-		ReDraw(canvases[canvas_idx]);
-		return false;
-	})
-	
-	
+    for (var i=0;i<canvases.length;i++) {
+      if (canvases[i].canvas.id == context_stave.context.canvas.id) {
+        canvas_idx = i;
+        break;
+      }
+    }
+      
+    RegenerateAnswer(context_canvas, context_stave)
+  	ReDraw(canvases[canvas_idx]);
+  	return false;
+  })
 }
 
 function NoteClick(e, id, canvas, stave) {
@@ -301,7 +300,7 @@ function NoteClick(e, id, canvas, stave) {
 		var x = GetX(e);
 		var y = GetY(e);
 
-        offset = stave.start_x + 25;
+    offset = stave.start_x + 25;
 
 		if ((x >= offset) && (x <= stave_size+50))  {
 			for(var i=0;i<stave.notes.length;i++) {
@@ -334,7 +333,7 @@ function NoteClick(e, id, canvas, stave) {
 							stave.edit_pos = null;
 						}
 						ReDraw(canvas);
-					    RegenerateAnswer(canvas, stave);
+				    RegenerateAnswer(canvas, stave);
 					}
 				}
 			}
@@ -343,49 +342,51 @@ function NoteClick(e, id, canvas, stave) {
 }
 
 function RegenerateAnswer(canvas, stave) {
-    answer = $('[id="'+canvas.answer.id+'"]')
-    out = "";
+  clef = stave.clef
 
-    for (var i=0;i<stave.notes.length;i++) {
-        if (stave.notes[i] instanceof Vex.Flow.GhostNote) {
-        } else {
-            note = stave.notes[i].keys[0];
+  answer = $('[id="'+canvas.answer.id+'"]')
+  out = "";
 
-            if (clef == "bass") {
-                for (var index in bass_translate) {
-                    if (bass_translate[index] == note) {
-                        note = index;
-                        break;
-                    }
-                }
-            } else if (clef == "alto") {
-                for (var index in alto_translate) {
-                    if (alto_translate[index] == note) {
-                        note = index;
-                        break;
-                    }
-                }
-            } else if (clef == "tenor") {
-                for (var index in tenor_translate) {
-                    if (tenor_translate[index] == note) {
-                        note = index;
-                        break;
-                    }
-                }
-            }
+  for (var i=0;i<stave.notes.length;i++) {
+    if (stave.notes[i] instanceof Vex.Flow.GhostNote) {
+    } else {
+      note = stave.notes[i].keys[0];
 
-            note = note.toUpperCase();
-
-            if (stave.notes[i].modifiers.length > 0) {
-                note = note.slice(0,1) + stave.notes[i].modifiers[0].type + note.slice(1);
-            }
-
-            if (out != "") { out += ","; }
-            out += note;
+      if (clef == "bass") {
+        for (var index in bass_translate) {
+          if (bass_translate[index] == note) {
+              note = index;
+              break;
+          }
         }
+      } else if (clef == "alto") {
+        for (var index in alto_translate) {
+          if (alto_translate[index] == note) {
+              note = index;
+              break;
+          }
+        }
+      } else if (clef == "tenor") {
+        for (var index in tenor_translate) {
+          if (tenor_translate[index] == note) {
+              note = index;
+              break;
+          }
+        }
+      }
+
+      note = note.toUpperCase();
+
+      if (stave.notes[i].modifiers.length > 0) {
+        note = note.slice(0,1) + stave.notes[i].modifiers[0].type + note.slice(1);
+      }
+
+      if (out != "") { out += ","; }
+      out += note;
     }
-    out = out.split("/").join("");
-    answer.val(out);
+  }
+  out = out.split("/").join("");
+  answer.val(out);
 }
 
 
@@ -469,9 +470,9 @@ function DrawNote(y, canvas, stave) {
 
 function ShowBlankSolution(canvas, stave, letter, register, accidental) {
     if (accidental == "") {
-        stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}));
+        stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}));
     } else {
-        stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
+        stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
     }
     stave.notes[stave.notes.length-1].positionable = false;
     stave.notes[stave.notes.length-1].locked = true;
@@ -497,9 +498,9 @@ function ShowFullSolution(canvas, stave, answer) {
 
     //add these note and the moveable should be set too
     if (accidental == "") {
-      stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}));
+      stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}));
     } else {
-      stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
+      stave.notes.push(new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(stave.clef, letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental)));
     }
 
     if (i ==0) {
@@ -523,7 +524,7 @@ function ClearTempNote(stave) {
 
 
 function CreateStave(canvas, register, letter, accidental, scaletype, includesks, forceclef, stave_size) {
-	clef = GetClef(register, letter, forceclef);
+	var clef = GetClef(register, letter, forceclef);
 	canvas.staves.push(new Vex.Flow.Stave(10, 20, stave_size));
   canvas.staves[canvas.staves.length-1].addClef(clef).setContext(canvas.context).draw();
 	stave = canvas.staves[canvas.staves.length-1];
@@ -547,23 +548,24 @@ function CreateStave(canvas, register, letter, accidental, scaletype, includesks
 	stave.note_selected = null;
 	stave.edit_note = null;
 	stave.edit_pos = null;
+  stave.clef = clef;
 }
 
 function AddKeySignature(stave, key) {
   var keySig = new Vex.Flow.KeySignature(key);
   
   //but if the stave is bass - this has to be adjusted down
-  if (clef == "bass") {
+  if (stave.clef == "bass") {
     //move them down 1 full position
     for(var i=0;i<keySig.accList.length;i++) {
       keySig.accList[i].line += 1;
     }
-  } else if (clef == "alto") {
+  } else if (stave.clef == "alto") {
     //move them down .5 position
     for(var i=0;i<keySig.accList.length;i++) {
       keySig.accList[i].line += .5;
     }
-  } else if (clef == "tenor") {
+  } else if (stave.clef == "tenor") {
     //move them up .5 position
     for(var i=0;i<keySig.accList.length;i++) {
       keySig.accList[i].line -= .5;
@@ -601,8 +603,8 @@ function SetModeScale(mode) {
 	    stave_size = 450;
 }	}
 
-function NoteTranslate(note) {
-	note1 = note.charAt(0).toLowerCase() + note.charAt(note.length-1)
+function NoteTranslate(clef, note) {
+	note1 = note.charAt(0).toLowerCase() + note.charAt(note.length-1);
 	if (clef == "bass") {
 		new_note = bass_translate[note1];
 	} else if (clef == "alto") {
@@ -610,15 +612,14 @@ function NoteTranslate(note) {
 	} else if (clef == "tenor") {
 		new_note = tenor_translate[note1];
 	} else {
-	    new_note = note;
+	  new_note = note;
 	}
 
 	if (new_note == undefined) {
-		alert(outofrange)
+		//alert(outofrange)
 	} else {
 		return new_note;
 	}
-
 }
 
 function GetX(e) {

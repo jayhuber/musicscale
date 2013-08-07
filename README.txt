@@ -67,6 +67,10 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013080700 - release v2.1 Stable
+- Fixed an issue with multiple questions appearing on the same page causing big failures
+- Also related to that, the clef was adjusting to the last rendered question.
+
 v2013073100 - release v2.03 Stable
 - Fixed install.xml reference to next incorrect
 
