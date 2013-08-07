@@ -51,7 +51,7 @@ class qtype_musicscale_renderer extends qtype_renderer {
 		$output .= html_writer::empty_tag('input', array(
 			'id' => $inputname,
 			'name' => $inputname,
-			'type' => 'text',
+			'type' => 'hidden',
 			'value' => $response));
 
     $stave_size = 450;
