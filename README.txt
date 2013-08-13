@@ -67,6 +67,9 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013081300 - release v2.2 Stable
+- Fixed issue with reference to "score" with multiple question fix.
+
 v2013080700 - release v2.1 Stable
 - Fixed an issue with multiple questions appearing on the same page causing big failures
 - Also related to that, the clef was adjusting to the last rendered question.

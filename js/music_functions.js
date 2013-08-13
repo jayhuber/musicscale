@@ -212,13 +212,13 @@ function SetMouseActions(id, canvas, stave) {
 							note_loc_top = parseInt(stave.notes[i].getYs())+7;
 							note_loc_bottom = note_loc_top + 8
             
-                            position = $("#"+id).offset();
+              position = $("#"+id).offset();
 							if ((note_loc_top <= y) && (note_loc_bottom >= y)) {
-                                if (id == "score") {
-                                    $("#context_menu").css({"left":(x+150)+"px","top":(y+55)+"px"});
-                                } else {
-								    $("#context_menu").css({"left":(position.left+x+10)+"px","top":(position.top+y-30)+"px"});
-                                }
+                if (id.indexOf("score") != -1) {
+                  $("#context_menu").css({"left":(x+150)+"px","top":(y+55)+"px"});
+                } else {
+							    $("#context_menu").css({"left":(position.left+x+10)+"px","top":(position.top+y-30)+"px"});
+                }
 								$("#context_menu").show();
 								stave.edit_note = stave.notes[i];
 								stave.edit_pos = i;
