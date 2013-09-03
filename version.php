@@ -24,7 +24,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qtype_musicscale';
-$plugin->version   = 2013081300;
+$plugin->version   = 2013090300;
 $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;

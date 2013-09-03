@@ -116,6 +116,11 @@ class qtype_musicscale extends question_type {
             if ($dataanswer == '') {
                 continue;
             }
+
+            $dataanswer = str_replace(',', ' ', $dataanswer);
+            $dataanswer = ucwords($dataanswer);
+            $dataanswer = str_replace(' ', ',', $dataanswer);
+
             // Get the old answer from the array and overwrite what is required, if there 
             if ($oldanswer = array_shift($oldanswers)) {  // Existing answer, so reuse it
                 $answer = $oldanswer;
@@ -143,12 +148,12 @@ class qtype_musicscale extends question_type {
                 }
             }
 
-			      //Add this to the answer
-			      $answer->fraction = $question->fraction[$key];
+			//Add this to the answer
+			$answer->fraction = $question->fraction[$key];
             $answer->feedback = $this->import_or_save_files($question->feedback[$key],
-                    $context, 'question', 'answerfeedback', $answer->id);
+            $context, 'question', 'answerfeedback', $answer->id);
             $answer->feedbackformat = $question->feedback[$key]['format'];
-			      $DB->update_record('question_answers', $answer);
+			$DB->update_record('question_answers', $answer);
 
             // Add the answer ID to the array of IDs
             $answers[] = $answer->id;

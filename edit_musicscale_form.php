@@ -35,7 +35,7 @@ class qtype_musicscale_edit_form extends question_edit_form {
     protected function definition_inner($mform) {
         global $CFG, $PAGE;
 
-     	  $PAGE->requires->js('/question/type/musicscale/js/jquery-1.6.2.min.js');
+     	$PAGE->requires->js('/question/type/musicscale/js/jquery-1.6.2.min.js');
         $PAGE->requires->js('/question/type/musicscale/js/vexflow.js');
         $PAGE->requires->js('/question/type/musicscale/js/music_functions.js');
         $PAGE->requires->js('/question/type/musicscale/js/scale_form.js');
@@ -90,11 +90,11 @@ class qtype_musicscale_edit_form extends question_edit_form {
 
         $mform->addElement('select', 'forceclef', 
             get_string('forceclef','qtype_musicscale'), 
-            array("" => "Default",
-                  "treble" => "Treble",
-                  "bass"  => "Bass",
-                  "alto"  => "Alto",
-                  "tenor" => "Tenor"
+            array("" => get_string('default','qtype_musicscale'),
+                  "treble" => get_string('treble','qtype_musicscale'),
+                  "bass"  => get_string('bass','qtype_musicscale'),
+                  "alto"  => get_string('alto','qtype_musicscale'),
+                  "tenor" => get_string('tenor','qtype_musicscale')
         ));
 
         $mform->addHelpButton('forceclef', 'forceclef', 'qtype_musicscale');

@@ -49,7 +49,7 @@ Requirements:
 
 How to install:
 
-1) Copy the "musicscale" folder into the following folder: moodle/question/type. 
+1) Copy the "musicscale" folder into the following folder: question/type/. 
 2) Load the "Notifications" page on the Moodle home page - this will create database tables used by the question type.
 
 
@@ -67,7 +67,15 @@ Report all bugs on https://github.com/jayhuber/musicscale/issues
 
 Changelog
 ---------
+v2013090300 - release v2.3 Stable
+- Fixed typo to alto language string
+- Fixed issue with auto generated answer prompt not offering the accidental
+- Fixed issue to alter question answers entered on the build question form to save them in uppercase.
+- Found an issue in the NoteTranslate that was not passing the clef causing a drawing issue.
+- Alter installation instruction in README.txt
+
 v2013081300 - release v2.2 Stable
+- Fixed missing language string for treble, bass, alto, and tenor.
 - Fixed issue with reference to "score" with multiple question fix.
 
 v2013080700 - release v2.1 Stable

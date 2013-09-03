@@ -56,6 +56,14 @@ class qtype_musicscale_renderer extends qtype_renderer {
 
     $stave_size = 450;
     $questiontext1 = get_string($question->orignoteletter, 'qtype_musicscale') ;
+    if (!empty($question->orignoteaccidental)) {
+        if ($question->orignoteaccidental != "n") {
+            $questiontext1.="-".get_string($question->orignoteaccidental, 'qtype_musicscale');
+        }
+    }
+    
+    //need the accidental
+    
     if ($question->modescale == "ma") {
       $questiontext1 .= " ".get_string('modescale_major', 'qtype_musicscale');
     } elseif ($question->modescale == "nm") {
@@ -96,14 +104,14 @@ class qtype_musicscale_renderer extends qtype_renderer {
 		
 		$q_setup = array(
 			'type' => 'scale',
-      'letter' => $question->orignoteletter,
-      'accidental' => $question->orignoteaccidental,
-      'register' => $question->orignoteregister,
-      'includeks' => $question->includeks,
-      'modescale' => $question->modescale,
-      'forceclef' => $question->forceclef,
-      'answer' => $inputname,
-      'slot' => $slot
+            'letter' => $question->orignoteletter,
+            'accidental' => $question->orignoteaccidental,
+            'register' => $question->orignoteregister,
+            'includeks' => $question->includeks,
+            'modescale' => $question->modescale,
+            'forceclef' => $question->forceclef,
+            'answer' => $inputname,
+            'slot' => $slot
 		);
 
 		$output .= html_writer::script('q_setup[q_setup.length] = '.json_encode($q_setup).';', '');

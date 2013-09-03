@@ -72,8 +72,8 @@ function StaveUpdate(obj, canvas) {
   
   for (var i=0;i<ary.length;i++) {
     letter = ary[i].charAt(0);
-	register = ary[i].charAt(ary[i].length-1)
-	accidental = ary[i].slice(0,-1);
+	  register = ary[i].charAt(ary[i].length-1)
+	  accidental = ary[i].slice(0,-1);
     accidental = accidental.substr(1);
 
     if ((letter != "") && (register != "")) {
@@ -120,10 +120,6 @@ function StaveUpdate(obj, canvas) {
 
 }
 
-
-
-
-
 function ValidateOptions(letter, accidental, scaletype) {
   note = letter.toUpperCase()+accidental;
   if (scaletype == "ma") {
@@ -144,9 +140,9 @@ function FormChanges(letter, register, accidental, scaletype, includesks, forcec
 	var ac = 0;
 	$('*[id^=id_answer_]:visible').each(function() {
 		if ((accidental == "") || (includesks == "y")) {
-			canvases[ac].staves[0].notes[0] = new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]});
+			canvases[ac].staves[0].notes[0] = new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(canvases[ac].staves[0].clef, letter + "/" + register)]});
 		} else {
-			canvases[ac].staves[0].notes[0] = new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental));
+			canvases[ac].staves[0].notes[0] = new Vex.Flow.StaveNote({duration: "w", keys: [NoteTranslate(canvases[ac].staves[0].clef, letter + "/" + register)]}).addAccidental(0, new Vex.Flow.Accidental(accidental));
 		}
 
     canvases[ac].staves[0].notes[0].positionable = false;
@@ -604,6 +600,9 @@ function SetModeScale(mode) {
 }	}
 
 function NoteTranslate(clef, note) {
+  console.log("clef: "+clef);
+  console.log("note: "+note);
+  
 	note1 = note.charAt(0).toLowerCase() + note.charAt(note.length-1);
 	if (clef == "bass") {
 		new_note = bass_translate[note1];
@@ -636,7 +635,7 @@ function GetY(e) {
 	var y = e.offsetY;
 	if (y == undefined) { //this is for firefox
 		y = e.layerY;
-		y -= 90;
+		y -= 65;
 	}
 	if (isIE == true) {
 	  y += 10;

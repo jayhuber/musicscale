@@ -70,3 +70,11 @@
  $string['noteletterout'] = 'You have added a note letter that is out of range.';
  $string['registerout'] = 'You have added a register that is out of range.';
  $string['outofrange'] = 'The clef and note(s) that have been selected are out of range.';
+ $string['treble'] = 'Treble';
+ $string['bass'] = 'Bass';
+ $string['alto'] = 'Alto';
+ $string['tenor'] = 'Tenor';
+ $string['default'] = 'Default';
+ $string['b'] = 'Flat';
+ $string['#'] = 'Sharp';
+ 

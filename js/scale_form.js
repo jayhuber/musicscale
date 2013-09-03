@@ -28,8 +28,11 @@ $().ready(function() {
         if (this.id == canvases[i].answer.id) {
           StaveUpdate(this, canvases[i])
         }
+        ReDraw(canvases[i]);
       }
     })
+    
+    
   });
 
 //	console.log("include key signature: "+$("#id_includeks").val());
