@@ -28,4 +28,4 @@ $plugin->version   = 2013090300;
 $plugin->requires  = 2012062500;
 $plugin->cron      = 0;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '2.2 for Moodle 2.3+ & 2.4+';
+$plugin->release   = '2.3 for Moodle 2.3+ & 2.4+';
